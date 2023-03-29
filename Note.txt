@@ -1,0 +1,57 @@
+1- For user.............................................................................................................................................
+
+COM.EXAMPLE
+COM.EXAMPLE.CONTROLLER
+COM.EXAMPLE.MODEL
+COM.EXAMPLE.REPOSITORY
+COM.EXAMPLE.SERVICE
+
+TEMPLATE-
+INDEX.HTML
+REGISTER.HTML
+LOGIN.HTML
+
+themleaf use as component for frontend and pass one time css,js bootstrap
+
+service or iska implementation dono file bnega
+service me modal ki chije use krengee
+implementation shortcut overide implementation
+implementation -    //without repository we can't use that's why we use Autowired and this line
+    @Autowired
+    private UserRepository userRepo; 
+
+    //post is use here so getting data from user
+frontend-name and model data passed same so get data 
+
+
+
+security-config-login
+login.html passed same on both
+
+request param showing error /success
+
+If we use model attribute annotation so we can use this data anywhere
+
+
+
+
+spring security in login page add dependency
+
+
+config file for security reason we create in end
+
+
+2-For Admin role...........................................................................................................................................
+
+Add  class
+custom success handler
+TeacherController
+AdminController
+
+Add html
+admin teacher
+in d/f folder
+Note- in mysql add role - USER,ADMIN, TEACHER SO IT WILL WORK
+
+
+3-forget password............................................................................................................................................
